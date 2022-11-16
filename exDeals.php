@@ -8,17 +8,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<title>The Food Theory</title>
-<link rel="stylesheet" href="feedback.css">
-<script src="feedback.js"></script>
-<link rel="stylesheet" href="index.css">
-
-
+<title>TFT - Exclusive Deals</title>
 </head>
-
-
-<body>
-
+<body >
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
     <div class="container-fluid">
       <a class="navbar-brand" href="#">The Food Theory</a>
@@ -51,10 +43,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="exDeals.php">Exclusive Deals</a>
+            <a class="nav-link active" href="exDeals.php">Exclusive Deals</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="feedback.php">Feedback</a>
+            <a class="nav-link" href="feedback.php">Feedback</a>
           </li>
 
         </ul>
@@ -99,148 +91,13 @@
       </div>
     </div>
   </nav>
-
-
-    <div class="w-50 m-auto">
-        <h3 class="text-uppercase fw-bold mb-4 text-center"> Thank You For Visiting Us!</h3>
-        <h4 class="text-uppercase fw-bold mb-4 text-center">Help us Serve you Better</h4>
-        <form action="custreviews.php" method="post">
-            <div class="form-group">
-                <label>Name: </label>
-                <input type="text" name="user" title="" placeholder="Name" autocomplete="off" class="form-control" required="yes">
-                <label for="exampleFormControlTextarea1" class="form-label">Review: </label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="feed" required></textarea>
-            <br>
-       
-            <p>Food Rating :</p>                       
-<div class="container-wrapper">  
-  <div class="container d-flex">
-    <div class="row justify-content-center">    
-      <!-- star rating -->
-      <div class="rating-wrapper">
-          
-        <!-- star 5 -->
-        <input type="radio" id="5-star-rating" name="food-rating" value="5">
-        <label for="5-star-rating" class="star-rating">
-          <p>5</p>
-        </label>
-        
-         <!-- star 4 -->
-        <input type="radio" id="4-star-rating" name="food-rating" value="4">
-        <label for="4-star-rating" class="star-rating star">
-        <p>4</p>        </label>
-        
-         <!-- star 3 -->
-        <input type="radio" id="3-star-rating" name="food-rating" value="3">
-        <label for="3-star-rating" class="star-rating star">
-        <p>3</p>        </label>
-        
-        <!-- star 2 -->
-        <input type="radio" id="2-star-rating" name="food-rating" value="2">
-        <label for="2-star-rating" class="star-rating star">
-        <p>2</p>     
-        </label>
-        
-        <!-- star 1 -->
-        <input type="radio" id="1-star-rating" name="food-rating" value="1">
-        <label for="1-star-rating" class="star-rating star">
-        <p>1</p>  
-        </label>
-       </div>
-      
-    </div>
-  </div>
-</div>
-<p>Service Rating :</p>
-<div class="container-wrapper">  
-  <div class="container d-flex">
-    <div class="row justify-content-center">    
-      <!-- star rating -->
-      <div class="rating-wrapper">
-          
-        <!-- star 5 -->
-        <input type="radio" id="5-star-rating" name="service-rating" value="5">
-        <label for="5-star-rating" class="star-rating">
-          <p>5</p>
-        </label>
-        
-         <!-- star 4 -->
-        <input type="radio" id="4-star-rating" name="service-rating" value="4">
-        <label for="4-star-rating" class="star-rating star">
-        <p>4</p>        </label>
-        
-         <!-- star 3 -->
-        <input type="radio" id="3-star-rating" name="service-rating" value="3">
-        <label for="3-star-rating" class="star-rating star">
-        <p>3</p>        </label>
-        
-        <!-- star 2 -->
-        <input type="radio" id="2-star-rating" name="service-rating" value="2">
-        <label for="2-star-rating" class="star-rating star">
-        <p>2</p>     
-        </label>
-        
-        <!-- star 1 -->
-        <input type="radio" id="1-star-rating" name="service-rating" value="1">
-        <label for="1-star-rating" class="star-rating star">
-        <p>1</p>  
-        </label>
-       </div>
-      
-    </div>
-  </div>
-</div>
-<p>Overall Rating :</p>
-<div class="container-wrapper">  
-  <div class="container d-flex">
-    <div class="row justify-content-center">    
-
-      <!-- star rating -->
-      <div class="rating-wrapper">
-          
-        <!-- star 5 -->
-        <input type="radio" id="5-star-rating" name="overall-rating" value="5">
-        <label for="5-star-rating" class="star-rating">
-          <p>5</p>
-        </label>
-        
-         <!-- star 4 -->
-        <input type="radio" id="4-star-rating" name="overall-rating" value="4">
-        <label for="4-star-rating" class="star-rating star">
-        <p>4</p>        </label>
-        
-         <!-- star 3 -->
-        <input type="radio" id="3-star-rating" name="overall-rating" value="3">
-        <label for="3-star-rating" class="star-rating star">
-        <p>3</p>        </label>
-        
-        <!-- star 2 -->
-        <input type="radio" id="2-star-rating" name="overall-rating" value="2">
-        <label for="2-star-rating" class="star-rating star">
-        <p>2</p>     
-        </label>
-        
-        <!-- star 1 -->
-        <input type="radio" id="1-star-rating" name="overall-rating" value="1">
-        <label for="1-star-rating" class="star-rating star">
-        <p>1</p>  
-        </label>
-       </div>
-      
-    </div>
-  </div>
-</div>
-          
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
-<div style="background-color:aliceblue;" class="container footer-container mt-5" >
+
+<h3 class="text-uppercase fw-bold mb-4 text-center mt-5"> Sorry No deals Available right now!</h3>
+<div style="background-color:aliceblue;" class="container footer-container mt-5 pt-5" >
     
   
       <footer class="py-5">
@@ -277,5 +134,7 @@
         </div>
       </footer>
       </div>
+
+
 </body>
 </html>
